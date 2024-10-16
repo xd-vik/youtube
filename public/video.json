@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "title": "React.js Crash Course for Beginners",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=React+Crash+Course",
+    "channel": "CodeAcademy",
+    "views": "1.2M views",
+    "uploaded": "2 weeks ago",
+    "duration": "12:34",
+    "category": "Programming"
+  },
+  {
+    "id": "2",
+    "title": "How to Build a Responsive Website",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Responsive+Web+Design",
+    "channel": "DesignCourse",
+    "views": "897K views",
+    "uploaded": "1 month ago",
+    "duration": "18:45",
+    "category": "Web Development"
+  },
+  {
+    "id": "3",
+    "title": "10 JavaScript Tricks You Didn’t Know",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=JS+Tricks",
+    "channel": "TechieDelight",
+    "views": "689K views",
+    "uploaded": "3 weeks ago",
+    "duration": "9:15",
+    "category": "JavaScript"
+  },
+  {
+    "id": "4",
+    "title": "Understanding Flexbox in CSS",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Flexbox+CSS",
+    "channel": "CSSMastery",
+    "views": "482K views",
+    "uploaded": "5 days ago",
+    "duration": "14:22",
+    "category": "CSS"
+  },
+  {
+    "id": "5",
+    "title": "Complete Guide to Node.js",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Node.js+Guide",
+    "channel": "CodeStack",
+    "views": "2.1M views",
+    "uploaded": "2 months ago",
+    "duration": "25:13",
+    "category": "Back-End Development"
+  },
+  {
+    "id": "6",
+    "title": "Why Tailwind CSS is Awesome",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Tailwind+CSS",
+    "channel": "DevSimplified",
+    "views": "550K views",
+    "uploaded": "3 weeks ago",
+    "duration": "10:11",
+    "category": "CSS"
+  },
+  {
+    "id": "7",
+    "title": "Learn Python Programming in 2024",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Python+2024",
+    "channel": "PythonAcademy",
+    "views": "990K views",
+    "uploaded": "4 days ago",
+    "duration": "30:45",
+    "category": "Python"
+  },
+  {
+    "id": "8",
+    "title": "Vue.js vs React.js: Which One to Choose?",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Vue+vs+React",
+    "channel": "FrontendHeroes",
+    "views": "1.5M views",
+    "uploaded": "1 week ago",
+    "duration": "22:10",
+    "category": "Frameworks"
+  },
+  {
+    "id": "9",
+    "title": "Top 10 VS Code Extensions for Developers",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=VS+Code+Extensions",
+    "channel": "CodeLab",
+    "views": "860K views",
+    "uploaded": "1 month ago",
+    "duration": "11:56",
+    "category": "Tools"
+  },
+  {
+    "id": "10",
+    "title": "Understanding the DOM in JavaScript",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=DOM+in+JS",
+    "channel": "JavaScriptMastery",
+    "views": "720K views",
+    "uploaded": "2 weeks ago",
+    "duration": "16:27",
+    "category": "JavaScript"
+  },
+  {
+    "id": "11",
+    "title": "Best Practices for Git and GitHub",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Git+GitHub",
+    "channel": "OpenSourceHub",
+    "views": "305K views",
+    "uploaded": "3 days ago",
+    "duration": "8:34",
+    "category": "Version Control"
+  },
+  {
+    "id": "12",
+    "title": "How to Create a Personal Portfolio",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Portfolio",
+    "channel": "FreelancerHQ",
+    "views": "870K views",
+    "uploaded": "2 weeks ago",
+    "duration": "19:40",
+    "category": "Web Development"
+  },
+  {
+    "id": "13",
+    "title": "Django vs Flask: Which Framework to Choose?",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Django+vs+Flask",
+    "channel": "BackEndMaster",
+    "views": "659K views",
+    "uploaded": "1 month ago",
+    "duration": "17:09",
+    "category": "Back-End Development"
+  },
+  {
+    "id": "14",
+    "title": "Machine Learning in 10 Minutes",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=ML+in+10+Minutes",
+    "channel": "MLQuickStart",
+    "views": "1.1M views",
+    "uploaded": "3 weeks ago",
+    "duration": "10:00",
+    "category": "Machine Learning"
+  },
+  {
+    "id": "15",
+    "title": "How to Ace a Front-End Developer Interview",
+    "thumbnail": "https://via.placeholder.com/210x118.png?text=Frontend+Interview",
+    "channel": "TechInterviews",
+    "views": "790K views",
+    "uploaded": "2 weeks ago",
+    "duration": "12:15",
+    "category": "Career Development"
+  }
+]
