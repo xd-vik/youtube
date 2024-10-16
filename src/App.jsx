@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <>
-      <div className="text-3xl font-bold underline">Setup DOne</div>
+      <div className="w-full">
+           <Header />
+      </div>
     </>
   );
 }
