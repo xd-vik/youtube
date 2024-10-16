@@ -42,8 +42,8 @@ This project is a **YouTube UI Clone** that replicates the visual design of YouT
 
 - **Front-End**:
   - Vite (for fast development build)
-    - React.js
-    - Tailwind CSS (for styling)
+  - React.js
+  - Tailwind CSS (for styling)
 - **Icons & Fonts**: - React-icons - Google Fonts
 - **Vercel**: - for deploying
 
@@ -75,12 +75,12 @@ We welcome contributions from everyone. Please follow these steps:
 3. Setup the Project Locally (eg. npm i)
 4. Setup Upstream to directly sync with `xd-vik/youtube` `master` branch
    ```bash
-   	git remote add upstream https://github.com/xd-vik/youtube.git
+   git remote add upstream https://github.com/xd-vik/youtube.git
    ```
 5. Setup your origin for pushing to your Forked Repo
    ```bash
-   	git remote set-url origin `your-git-url`
-   	git remote -v # confirm the changes
+   git remote set-url origin `your-git-url`
+   git remote -v # confirm the changes
    ```
 6. Commit your changes with a meaningful message:
    ```bash
@@ -94,17 +94,11 @@ We welcome contributions from everyone. Please follow these steps:
 
 ### Whenever You Start Your Work Please be in SYNC with this repo
 
-- Fetch and Merge on Your Local Machine
+- Go to your Github forked Repo SYNC with this repo
 
-  ```bash
-  git fetch upstream
-  ```
+  -> in your local machine - git pull
 
-  ```bash
-  git merge upstream/master
-  ```
-
-  and after that start writing code and commit-push-openPR
+and after that start writing code and commit-push-openPR
 
 <br />
 
