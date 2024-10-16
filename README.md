@@ -28,10 +28,10 @@ This project is a **YouTube UI Clone** that replicates the visual design of YouT
 
 ## Team Members
 
-- **Vivek** (Project Lead)
-- **Vishal**
-- **Manish**
-- **Ravindra**
+- [Vivek](https://github.com/xd-vik) `Team Lead`
+- [Vishal](https://github.com/strivervishal)
+- [Ravindra Gupta](https://github.com/CheapStudent)
+- [Manish Nagar](https://github.com/ManishNagar001)
 
 ## Features
 
