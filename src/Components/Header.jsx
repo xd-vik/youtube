@@ -1,8 +1,6 @@
-import React from "react";
-
 const Header = () => {
   return (
-    <div className="w-full bg-[#0f0f0f] flex flex-row p-3 gap-5">
+    <div className="w-full  bg-[#0f0f0f] flex flex-row p-3 gap-5 fixed top-0">
       {/* Menu and Logo Section */}
       <div className="w-[15%] flex flex-row items-center gap-5">
         {/* Menu Icon */}
@@ -27,13 +25,13 @@ const Header = () => {
 
       {/* Input Field Section */}
       <div className="w-[55%] flex items-center justify-center">
-        <div className="w-full flex border rounded-full border-[#dadada] overflow-hidden opacity-50">
+        <div className="w-full flex border rounded-full border-[#dadada] overflow-hidden opacity-50 ml-24">
           <input
             type="text"
-            className="w-[90%] py-2 px-3 bg-[#0f0f0f] text-white focus:outline-none"
+            className="w-[90%] py-1 px-3 bg-[#0f0f0f] text-white focus:outline-none"
             placeholder="Search"
           />
-          <button className="w-[10%] py-2 px-3 bg-[#3d3d3d] border-l text-xl">
+          <button className="w-[10%] py-1 px-3 bg-[#3d3d3d] border-l text-xl">
             <i className="ri-search-line text-[#f8ecec]"></i>
           </button>
         </div>
