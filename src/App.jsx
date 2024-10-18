@@ -7,7 +7,7 @@ import ChipBar from "./Components/Chipbar";
 function App() {
   return (
     <>
-      <div className="w-full h-[10%] fixed top-0 z-50">
+      <div className="w-full h-[10%] fixed top-0 z-50 bg-white">
         <Header />
       </div>
 

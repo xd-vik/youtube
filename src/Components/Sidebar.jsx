@@ -18,11 +18,20 @@ import { IoTrophyOutline } from "react-icons/io5";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoFlagOutline } from "react-icons/io5";
 import { IoMdHelpCircleOutline } from "react-icons/io";
+import { RiFeedbackLine } from "react-icons/ri";
 import Footer from "./Footer";
+
+
 
 const Sidebar = () => {
   return (
-    <div className="w-[17%] bg-[#272727] overflow-y-scroll overflow-x-hidden p-5  text-[#f1f1f1]">
+    <div
+      className="w-[17%] bg-white overflow-y-scroll overflow-x-hidden p-5  text-[#0f0f0f] "
+      style={{
+        scrollbarWidth: "thin",
+        scrollbarColor: "#2d2d2d #f5f5f5",
+      }}
+    >
       <div className="flex flex-row gap-3">
         <ul className="flex flex-col ">
           <span>
@@ -47,7 +56,7 @@ const Sidebar = () => {
           </a>
         </ul>
       </div>
-      <hr className="opacity-50 mb-4" />
+      <hr className="opacity-50 mb-4 border-[#9c9b9b]  " />
 
       <div className=" flex flex-row gap-1 mb-3">
         <h3 className="capitalize text-[1.1rem] font-normal ">you</h3>
@@ -97,7 +106,7 @@ const Sidebar = () => {
           </a>
         </ul>
       </div>
-      <hr className="opacity-50 mb-4" />
+      <hr className="opacity-50 mb-4 border-[#9c9b9b]  " />
       <div className=" flex flex-row gap-1 mb-3">
         <h3 className="capitalize text-[1.1rem] font-normal ">Subscriptions</h3>
       </div>
@@ -149,7 +158,7 @@ const Sidebar = () => {
         </span>
         <span className="text-[1rem]">show more</span>
       </div>
-      <hr className="opacity-50 mb-4" />
+      <hr className="opacity-50 mb-4 border-[#9c9b9b]  " />
       <h3 className="text-[1.2rem] font-normal mb-4">Explore</h3>
       <div className="flex flex-row gap-3">
         <ul className="flex flex-col ">
@@ -225,7 +234,7 @@ const Sidebar = () => {
           </a>
         </ul>
       </div>
-      <hr className="opacity-50 mb-4" />
+      <hr className="opacity-50 mb-4 border-[#9c9b9b]  " />
       <div className="flex flex-row gap-3">
         <ul className="flex flex-col ">
           <span>
@@ -236,6 +245,9 @@ const Sidebar = () => {
           </span>
           <span>
             <IoMdHelpCircleOutline className="text-[1.5rem] mb-5" />
+          </span>
+          <span>
+            <RiFeedbackLine className="text-[1.5rem] mb-5" />
           </span>
         </ul>
         <ul className="flex flex-col">
@@ -248,9 +260,12 @@ const Sidebar = () => {
           <a className="mb-5" href="#">
             Help
           </a>
+          <a className="mb-5" href="#">
+            Send feedback
+          </a>
         </ul>
       </div>
-      <hr className="opacity-50 mb-4" />
+      <hr className="opacity-50 mb-4 border-[#9c9b9b]  " />
       <Footer />
     </div>
   );
