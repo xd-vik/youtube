@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="full bg-[#272727] text-white flex flex-col ">
+    <footer className="full bg-white text-black flex flex-col ">
       <div className="flex flex-row flex-wrap text-sm leading-3  gap-2 capitalize font-medium opacity-85 mb-4">
         <a href="#" className="hover:text-gray-300">
           About

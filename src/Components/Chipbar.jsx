@@ -27,9 +27,9 @@ const ChipBar = () => {
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`whitespace-nowrap px-4 py-2 rounded-full ${
+              className={`whitespace-nowrap px-4 py-2 rounded-md ${
                 activeCategory === category
-                  ? "bg-black text-white"
+                  ? "bg-black text-[#dadada]"
                   : "bg-gray-200 text-black"
               } transition-all duration-200 ease-in-out`}
             >
