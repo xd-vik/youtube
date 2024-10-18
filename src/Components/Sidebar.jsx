@@ -26,7 +26,7 @@ import Footer from "./Footer";
 const Sidebar = () => {
   return (
     <div
-      className="w-[17%] bg-white overflow-y-scroll overflow-x-hidden p-5  text-[#0f0f0f] "
+      className="hidden sm:block w-[17%] bg-white overflow-y-scroll overflow-x-hidden p-5  text-[#0f0f0f] "
       style={{
         scrollbarWidth: "thin",
         scrollbarColor: "#2d2d2d #f5f5f5",

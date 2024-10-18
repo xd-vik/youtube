@@ -13,7 +13,7 @@ const Header = () => {
             </span>
           </div>
           <div className="flex items-center space-x-1 text-black capitalize">
-            <span className="text-[1.6rem] tracking-[-0.099em] font-light">
+            <span className="text-[1.6rem] tracking-[-0.099em] font-medium">
               YouTube
             </span>
             <span className="text-[0.9rem] align-top">IN</span>
@@ -22,7 +22,7 @@ const Header = () => {
       </div>
 
       <div className="w-[55%] flex items-center justify-center">
-        <div className="w-full flex border rounded-full border-[#dadada] overflow-hidden opacity-50 ml-24">
+        <div className="w-full flex border rounded-full border-[#848383] overflow-hidden opacity-50 ml-24">
           <input
             type="text"
             className="w-[90%] py-1 px-3 bg-white text-black focus:outline-none"
@@ -42,7 +42,7 @@ const Header = () => {
 
       <div className="w-[20%] flex justify-center items-center gap-4">
         <button className="font-thin flex items-center space-x-2 bg-[#e5e5e5] text-black px-4 py-1 rounded-full hover:bg-[#c4c3c3]">
-          <i className="ri-add-fill text-2xl text-white"></i>
+          <i className="ri-add-fill text-2xl text-black"></i>
           <span className="mb-[0.41rem]">Create</span>
         </button>
 
