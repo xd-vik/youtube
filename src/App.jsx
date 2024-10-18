@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
 import Videos from "./Components/Videos";
 import "./App.css";
+import ChipBar from "./Components/Chipbar";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
 
       <div className="w-full flex flex-row mt-[4rem] ">
         <Sidebar />
-        <Videos />
+        <div>
+          <ChipBar />
+          <Videos />
+        </div>
       </div>
     </>
   );

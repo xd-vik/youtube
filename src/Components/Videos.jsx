@@ -13,7 +13,7 @@ const Videos = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ml-72 p-6 w-[83%] absolute left-[-3%] top-[4rem] overflow-y-auto overflow-x-hidden ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ml-72 p-6 w-[83%] absolute left-[-3%]  overflow-y-auto overflow-x-hidden ">
       {videos.map((video) => (
         <div
           key={video.id}
