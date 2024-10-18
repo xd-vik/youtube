@@ -7,7 +7,9 @@ const Videos = () => {
     fetch("/video.json")
       .then((response) => response.json())
       .then((data) => setVideos(data))
-      .catch((error) => console.error("Error fetching the videos:", error));
+      .catch((error) =>
+        console.error("Error while fetching the video:", error)
+      );
   }, []);
 
   return (
@@ -17,7 +19,6 @@ const Videos = () => {
           key={video.id}
           className="border rounded-lg overflow-hidden shadow-lg"
         >
-          {/* Thumbnail with video duration */}
           <div className="relative">
             <img
               src={video.thumbnail}
@@ -28,11 +29,10 @@ const Videos = () => {
               {video.duration}
             </span>
           </div>
-          {/* Video Info */}
+
           <div className="p-4">
             <h2 className="text-lg font-semibold truncate">{video.title}</h2>
 
-            {/* Channel Logo and Name */}
             <div className="flex items-center mt-2">
               <img
                 src={video.channelLogo}

@@ -23,7 +23,6 @@ import Footer from "./Footer";
 const Sidebar = () => {
   return (
     <div className="w-[17%] bg-[#272727] overflow-y-scroll overflow-x-hidden p-5  text-[#f1f1f1]">
-      {/* sidenav upper section like home,subscriptions and shorts  */}
       <div className="flex flex-row gap-3">
         <ul className="flex flex-col ">
           <span>
@@ -49,11 +48,11 @@ const Sidebar = () => {
         </ul>
       </div>
       <hr className="opacity-50 mb-4" />
-      {/* you section  */}
+
       <div className=" flex flex-row gap-1 mb-3">
         <h3 className="capitalize text-[1.1rem] font-normal ">you</h3>
         <span>
-          <i class="ri-arrow-right-s-line text-[1.3rem] font-thin"></i>
+          <i className="ri-arrow-right-s-line text-[1.3rem] font-thin"></i>
         </span>
       </div>
       <div className="flex flex-row gap-3">
@@ -104,23 +103,23 @@ const Sidebar = () => {
       </div>
       <div className="flex flex-row gap-3">
         <ul className="flex flex-col ">
-          <div class="w-7 mb-[0.8rem] h-7 bg-[#5d4038] text-[#dadada] flex items-center justify-center rounded-full">
-            <span class="font-semibold">A</span>
+          <div className="w-7 mb-[0.8rem] h-7 bg-[#5d4038] text-[#dadada] flex items-center justify-center rounded-full">
+            <span className="font-semibold">A</span>
           </div>
-          <div class="w-7 h-7 mb-[1.05rem] bg-[#2d4038] text-[#dadada] flex items-center justify-center rounded-full">
-            <span class="font-semibold">N</span>
+          <div className="w-7 h-7 mb-[1.05rem] bg-[#2d4038] text-[#dadada] flex items-center justify-center rounded-full">
+            <span className="font-semibold">N</span>
           </div>
-          <div class="w-7 h-7 mb-4 bg-[#5d4038] text-[#dadada] flex items-center justify-center rounded-full">
-            <span class="font-semibold">R</span>
+          <div className="w-7 h-7 mb-4 bg-[#5d4038] text-[#dadada] flex items-center justify-center rounded-full">
+            <span className="font-semibold">R</span>
           </div>
-          <div class="w-7 h-7 mb-[1rem] bg-[#cf7866] text-[#dadada] flex items-center justify-center rounded-full">
-            <span class="font-semibold">G</span>
+          <div className="w-7 h-7 mb-[1rem] bg-[#cf7866] text-[#dadada] flex items-center justify-center rounded-full">
+            <span className="font-semibold">G</span>
           </div>
-          <div class="w-7 h-7 mb-4 bg-[#8498da] text-[#dadada] flex items-center justify-center rounded-full">
-            <span class="font-semibold">I</span>
+          <div className="w-7 h-7 mb-4 bg-[#8498da] text-[#dadada] flex items-center justify-center rounded-full">
+            <span className="font-semibold">I</span>
           </div>
-          <div class="w-7 h-7  bg-[#3f5d38] text-[#dadada] flex items-center justify-center rounded-full">
-            <span class="font-semibold opacity-50">A</span>
+          <div className="w-7 h-7  bg-[#3f5d38] text-[#dadada] flex items-center justify-center rounded-full">
+            <span className="font-semibold opacity-50">A</span>
           </div>
         </ul>
         <ul className="flex flex-col">
@@ -146,7 +145,7 @@ const Sidebar = () => {
       </div>
       <div className="flex flex-row gap-3 mb-5 ">
         <span>
-          <i class="ri-arrow-down-s-line text-xl"></i>
+          <i className="ri-arrow-down-s-line text-xl"></i>
         </span>
         <span className="text-[1rem]">show more</span>
       </div>
@@ -182,7 +181,7 @@ const Sidebar = () => {
             <MdOutlineWatchLater className="text-[1.5rem] mb-5" />
           </span>
           <span className="mb-4">
-            <i class="ri-handbag-line text-xl "></i>
+            <i className="ri-handbag-line text-xl "></i>
           </span>
           <span>
             <FiThumbsUp className="text-[1.5rem] mb-5" />
